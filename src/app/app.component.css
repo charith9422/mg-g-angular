@@ -154,8 +154,13 @@
   }
 }
 @media (max-width: 479.98px) {
+  .header-nav .navbar-nav {
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 16px;
+  }
   .header-nav .nav-right-cont ul li {
-    margin-right: 10px;
+    margin-right: 22px;
   }
   .header-nav .nav-right-cont ul li.search-input {
     max-width: 120px;
